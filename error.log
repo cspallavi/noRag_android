@@ -1,0 +1,27 @@
+[Wed Mar 14 21:28:17.313437 2018] [mpm_event:notice] [pid 7780:tid 139844188268416] AH00489: Apache/2.4.18 (Ubuntu) configured -- resuming normal operations
+[Wed Mar 14 21:28:17.313583 2018] [core:notice] [pid 7780:tid 139844188268416] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 14 21:28:19.185809 2018] [mpm_event:notice] [pid 7780:tid 139844188268416] AH00491: caught SIGTERM, shutting down
+[Wed Mar 14 21:28:20.303043 2018] [wsgi:warn] [pid 7982:tid 140253144233856] mod_wsgi: Compiled for Python/3.5.1+.
+[Wed Mar 14 21:28:20.303105 2018] [wsgi:warn] [pid 7982:tid 140253144233856] mod_wsgi: Runtime using Python/3.5.2.
+[Wed Mar 14 21:28:20.303809 2018] [mpm_event:notice] [pid 7982:tid 140253144233856] AH00489: Apache/2.4.18 (Ubuntu) mod_wsgi/4.3.0 Python/3.5.2 configured -- resuming normal operations
+[Wed Mar 14 21:28:20.303834 2018] [core:notice] [pid 7982:tid 140253144233856] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 14 21:43:54.065125 2018] [mpm_event:notice] [pid 7982:tid 140253144233856] AH00491: caught SIGTERM, shutting down
+[Wed Mar 14 21:43:55.135697 2018] [wsgi:warn] [pid 8336:tid 140684314171264] mod_wsgi: Compiled for Python/3.5.1+.
+[Wed Mar 14 21:43:55.135756 2018] [wsgi:warn] [pid 8336:tid 140684314171264] mod_wsgi: Runtime using Python/3.5.2.
+[Wed Mar 14 21:43:55.136799 2018] [mpm_event:notice] [pid 8336:tid 140684314171264] AH00489: Apache/2.4.18 (Ubuntu) mod_wsgi/4.3.0 Python/3.5.2 configured -- resuming normal operations
+[Wed Mar 14 21:43:55.136831 2018] [core:notice] [pid 8336:tid 140684314171264] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 14 22:34:49.641169 2018] [mpm_event:notice] [pid 8336:tid 140684314171264] AH00491: caught SIGTERM, shutting down
+[Wed Mar 14 22:34:49.753532 2018] [wsgi:warn] [pid 8780:tid 140112955901824] mod_wsgi: Compiled for Python/3.5.1+.
+[Wed Mar 14 22:34:49.753603 2018] [wsgi:warn] [pid 8780:tid 140112955901824] mod_wsgi: Runtime using Python/3.5.2.
+[Wed Mar 14 22:34:49.754622 2018] [mpm_event:notice] [pid 8780:tid 140112955901824] AH00489: Apache/2.4.18 (Ubuntu) mod_wsgi/4.3.0 Python/3.5.2 configured -- resuming normal operations
+[Wed Mar 14 22:34:49.754652 2018] [core:notice] [pid 8780:tid 140112955901824] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 14 22:40:17.894551 2018] [mpm_event:notice] [pid 8780:tid 140112955901824] AH00491: caught SIGTERM, shutting down
+[Wed Mar 14 22:40:19.008371 2018] [wsgi:warn] [pid 8911:tid 139943375419264] mod_wsgi: Compiled for Python/3.5.1+.
+[Wed Mar 14 22:40:19.008446 2018] [wsgi:warn] [pid 8911:tid 139943375419264] mod_wsgi: Runtime using Python/3.5.2.
+[Wed Mar 14 22:40:19.009527 2018] [mpm_event:notice] [pid 8911:tid 139943375419264] AH00489: Apache/2.4.18 (Ubuntu) mod_wsgi/4.3.0 Python/3.5.2 configured -- resuming normal operations
+[Wed Mar 14 22:40:19.009554 2018] [core:notice] [pid 8911:tid 139943375419264] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 14 22:42:22.402969 2018] [mpm_event:notice] [pid 8911:tid 139943375419264] AH00491: caught SIGTERM, shutting down
+[Wed Mar 14 22:42:23.457498 2018] [wsgi:warn] [pid 9042:tid 139943238428544] mod_wsgi: Compiled for Python/3.5.1+.
+[Wed Mar 14 22:42:23.457570 2018] [wsgi:warn] [pid 9042:tid 139943238428544] mod_wsgi: Runtime using Python/3.5.2.
+[Wed Mar 14 22:42:23.458658 2018] [mpm_event:notice] [pid 9042:tid 139943238428544] AH00489: Apache/2.4.18 (Ubuntu) mod_wsgi/4.3.0 Python/3.5.2 configured -- resuming normal operations
+[Wed Mar 14 22:42:23.458689 2018] [core:notice] [pid 9042:tid 139943238428544] AH00094: Command line: '/usr/sbin/apache2'

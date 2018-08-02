@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinatorlayout"
+    tools:context="com.example.pallavi.norag.Student">
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:weightSum="3"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+
+      >
+    <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+        android:id="@+id/spinnerstatus"
+        android:layout_width="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:paddingRight="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Where Are You ?"
+        android:textColorHint="#05ab9a"
+
+        app:met_floatingLabel="highlight"
+
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+
+       >
+
+        <TextView
+            android:id="@+id/stextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="Shake Hard in Emergency Or Describe Your Problem"
+            android:textSize="25dp"
+
+            />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:hint="Describe Your Problem in detail"
+                android:id="@+id/complainbox"
+
+                />
+            <Button
+                android:id="@+id/complainsend"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Send"
+
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:layout_below="@id/complainbox"
+                android:textColor="#fff"
+                android:background="@drawable/gradient"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

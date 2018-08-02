@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/shake"
+            android:icon="@drawable/shake"
+            android:title="Status" />
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/notifications"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/complaints"
+            android:icon="@drawable/complaints"
+            android:title="Complaint list" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/committee_members"
+            android:icon="@drawable/committee_member"
+            android:title="Committee members" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_settings_power_black_24dp"
+            android:title="Logout" />
+        <!--<item
+            android:id="@+id/student"
+            android:icon="@drawable/committee_member"
+            android:title="Student" />
+        <item
+            android:id="@+id/authority"
+            android:icon="@drawable/committee_member"
+            android:title="Authority" />-->
+    </group>
+
+    <!--item android:title="Settings">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item-->
+
+</menu>

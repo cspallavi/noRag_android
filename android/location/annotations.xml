@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='android.location.LocationManager LocationManager(android.content.Context, ILocationManager) 1'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

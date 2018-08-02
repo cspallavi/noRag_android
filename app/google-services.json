@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "402620096905",
+    "firebase_url": "https://norag-1164e.firebaseio.com",
+    "project_id": "norag-1164e",
+    "storage_bucket": "norag-1164e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402620096905:android:9e7fa76232c74913",
+        "android_client_info": {
+          "package_name": "com.example.pallavi.norag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402620096905-qrb46akg3990dosl0u04j0hdn7k6nsqj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pallavi.norag",
+            "certificate_hash": "b79da1066708a7bc310e1c1110345bf4ad953f7a"
+          }
+        },
+        {
+          "client_id": "402620096905-sj82qi1vg5cjngnuhdcb8nr8i7e2l8na.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHmzuN5sv7Bl0yQNI3OyQ5_XmauGsRjYQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402620096905-sj82qi1vg5cjngnuhdcb8nr8i7e2l8na.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:background="@drawable/gradient"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/crv"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nid"
+                    android:layout_width="1dp"
+                    android:layout_height="1dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/notificationmessage"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/imageButton"
+                    android:layout_toRightOf="@+id/imageButton"
+                    android:layout_weight="4"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:text="name"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                <!--<TextView
+                    android:id="@+id/notificationdate"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/imageButton"
+                    android:layout_toRightOf="@+id/imageButton"
+                    android:layout_weight="4"
+                    android:paddingEnd="5dp"
+                    android:paddingStart="5dp"
+                    android:text="Date"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />-->
+                <ImageButton
+                    android:id="@+id/delnotification"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_delete_black_24dp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <TextView
+                    android:id="@+id/notificationdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="date"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
